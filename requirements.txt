@@ -20,7 +20,7 @@ attrs==22.1.0
     #   pytest
 base58==2.1.1
     # via multiaddr
-bitarray>=2.6.0,<3
+bitarray==2.7.6
     # via eth-account
 black==22.10.0
     # via -r requirements.in
@@ -109,6 +109,8 @@ idna==3.4
     # via
     #   requests
     #   yarl
+importlib-metadata==6.7.0
+    # via vyper
 inflection==0.5.0
     # via
     #   mythx-models
@@ -230,21 +232,17 @@ sortedcontainers==2.4.0
     # via hypothesis
 toml==0.10.2
     # via pytest
-tomli==2.0.1
-    # via black
 toolz==0.12.0
     # via cytoolz
 tqdm==4.64.1
     # via -r requirements.in
-typing-extensions==4.4.0
-    # via black
 urllib3==1.26.12
     # via requests
 varint==1.0.2
     # via multiaddr
 vvm==0.1.0
     # via -r requirements.in
-vyper==0.3.7
+vyper==0.3.8
     # via -r requirements.in
 wcwidth==0.2.5
     # via prompt-toolkit
@@ -258,6 +256,8 @@ wrapt==1.14.1
     # via -r requirements.in
 yarl==1.8.2
     # via aiohttp
+zipp==3.15.0
+    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools

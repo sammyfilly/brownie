@@ -37,7 +37,7 @@ bitarray>=2.6.0,<3
     #   eth-account
 black==22.6.0
     # via -r requirements.txt
-certifi==2022.6.15
+certifi==2023.7.22
     # via
     #   -r requirements.txt
     #   requests

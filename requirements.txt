@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-aiohttp==3.8.3
+aiohttp==3.8.5
     # via web3
 aiosignal==1.2.0
     # via aiohttp
